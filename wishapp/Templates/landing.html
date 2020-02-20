@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block title %}Signin{% endblock title %}
+
+{% block code %}
+<div class=bg-info>
+<div class="container">
+  <div class="col-md-6"></div>
+  <div class="row">
+    <div class="col text-center">
+<a class="btn btn-primary" href="{% url 'signin' %}" role="button">Start</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+{% endblock %}
